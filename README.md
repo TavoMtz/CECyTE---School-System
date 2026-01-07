@@ -31,6 +31,10 @@ Este repositorio contiene la arquitectura de datos y la documentación técnica 
 3.  Ejecutar el script principal ubicado en `base de datos/script_ddl.sql`.
 4.  (Opcional) Cargar datos de prueba con `base de datos/seed_data.sql`.
 
+
+## Link del Github
+https://github.com/TavoMtz/CECyTE---School-System.git
+
 ## Autores
 **Gustavo Enrique Martínez**\
 **Lucio Emiliano Ruiz Sepulveda**
