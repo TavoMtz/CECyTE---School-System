@@ -1,40 +1,31 @@
-# Sistema de Gestión Escolar - CECyTE
+# School Administration System - CECyTE
 
-> **Estado actual:** 🚧 Fase de Diseño y Modelado de Datos *(En progreso)*
+> **Current Status:** 🚧 Design and Data Modeling Phase *(In Progress)*
 
-Sistema para la administración de expedientes académicos, control escolar y procesos de admisión de las preparatorias CECyTE. Este proyecto tiene como objetivo centralizar la información estudiantil y eliminar la redundancia de datos.
+A platform designed for academic records administration, school management, and admission processes across CECyTE high schools. The primary goal of this system is to centralize student data and eliminate data redundancy.
 
-## Estructura del Repositorio
+## Repository Structure
 
-Este repositorio contiene la arquitectura de datos y la documentación técnica del sistema:
+This repository contains the data architecture blueprints and technical documentation for the system:
 
 * `/base de datos`:
-    * **Scripts SQL:** Código DDL para la creación de tablas y relaciones.
-    * **Diagramas:** Documento de MySQL Workbench, que es el Modelo Entidad-Relación (ERD).
-    * **Datos Semilla:** Scripts para poblar catálogos iniciales.
+    * **SQL Scripts:** DDL code for creating tables, constraints, and relationships.
+    * **Diagrams:** MySQL Workbench source file containing the Entity-Relationship Diagram (ERD).
+    * **Seed Data:** Scripts to populate baseline system catalogs.
 * `/docs`:
-    * Diccionario de Datos.
-    * Listado de requerimientos y reglas de negocio (markdown)
-    * Manual de procesos del CECyTE (PDF)
-    * Diagrama de Casos de Uso (PDF).
+    * Data Dictionary.
+    * Functional & Non-Functional Requirements Specification along with business rules (Markdown)[cite: 1].
+    * CECyTE Process Manual (PDF).
+    * Use Case Diagram (PDF)[cite: 1].
 
-> **Nota:** El manual detalla por secciones los procesos llevados a cabo para un mejor entenidmiento de los mismos.
+> **Note:** The process manual covers organizational workflows section by section to provide thorough domain understanding.
 
-## Tecnologías
+## Tech Stack
 
-* **Motor de Base de Datos:** MySQL
+* **Database Engine:** MySQL
 
-## Despliegue de la Base de Datos
+## Database Deployment
 
-1.  Clonar el repositorio.
-2.  Crear una base de datos vacía en tu gestor local.
-3.  Ejecutar el script principal ubicado en `base de datos/script_ddl.sql`.
-4.  (Opcional) Cargar datos de prueba con `base de datos/seed_data.sql`.
-
-
-## Link del Github
-https://github.com/TavoMtz/CECyTE---School-System.git
-
-## Autores
-**Gustavo Enrique Martínez**\
-**Lucio Emiliano Ruiz Sepulveda**
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/TavoMtz/CECyTE---School-System.git](https://github.com/TavoMtz/CECyTE---School-System.git)
