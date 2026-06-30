@@ -23,9 +23,5 @@ This repository contains the data architecture blueprints and technical document
 ## Tech Stack
 
 * **Database Engine:** MySQL
-
-## Database Deployment
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/TavoMtz/CECyTE---School-System.git](https://github.com/TavoMtz/CECyTE---School-System.git)
+### Authors
+Gustavo Martinez & Lucio Emiliano Ruiz
